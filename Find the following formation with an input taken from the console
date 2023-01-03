@@ -1,0 +1,27 @@
+/* Write a java program to find the following formation with an input taken from the console
+n=4
+n=4
+1 2 3 4
+1 2 3
+1 2
+1
+*/
+
+
+import java.util.Scanner;
+public class lab4 {
+public static void main(String[] args) {
+Scanner input = new Scanner(System.input);
+int i,j;
+System.out.print(&quot;Enter the number: &quot;);
+int n = in.nextInt();
+for(i=1;i&lt;=n;i++)
+{
+for(j=n;j&gt;=i;j--)
+{
+System.out.print(+i+&quot; &quot;);
+}
+System.out.print(&quot;\n&quot;);
+}
+}
+}
